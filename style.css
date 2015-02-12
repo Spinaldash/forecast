@@ -10,7 +10,7 @@ h1 {
   margin: 10px auto;
 }
 body {
-  background-image: url(/red_dune.jpeg);
+  background-image: url(red_dune.jpeg);
   background-size: cover;
 }
 .dayDisplay {

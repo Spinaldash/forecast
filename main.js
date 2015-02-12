@@ -25,7 +25,6 @@ function paint(url) {
     $.getJSON(url, function(response) {
     console.log(response.forecast.simpleforecast.forecastday);
     response.forecast.simpleforecast.forecastday.forEach(function(a) {
-      conditions.push(a.conditions);
       var $day = $('<div>');
       $day.addClass('dayDisplay');
       $('#calendar').append($day);
